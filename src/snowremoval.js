@@ -4,7 +4,7 @@ export function snowremoval(cm){
     let equipment =""
     if (cm <= 1){
         equipment = "broom";
-    }else if(cm<=4){
+    }else if(cm <= 4){
         equipment = "shovel";
     }else if (cm <= 10){
         equipment = "electronic snow blower";

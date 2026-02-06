@@ -1,10 +1,11 @@
 import { snowremoval } from "../snowremoval.js";
-import {Text} from "react-native";
+import { Text } from "react-native";
 // input cm of snowfall
-export function SnowRemoval({cm}){
-    return(
+
+export function SnowRemoval({ cm }) {
+    return (
         <Text>
-            Snow removal of { cm } requires { snowremoval(cm)}
+            Snow removal of {cm} requires {snowremoval(cm)}
         </Text>
     )
 }
